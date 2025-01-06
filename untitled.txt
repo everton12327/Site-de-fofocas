@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fofoqueiros de Plantão</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; color: #333; margin: 0; }
+        header { background: #ff69b4; color: white; padding: 20px; text-align: center; }
+        nav { background: #333; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .content { padding: 20px; }
+        .post { background: white; margin-bottom: 20px; padding: 15px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fofoqueiros de Plantão</h1>
+        <p>Os babados mais quentes estão aqui!</p>
+    </header>
+    <nav>
+        <a href="#celebridades">Celebridades</a>
+        <a href="#tv">TV e Cinema</a>
+        <a href="#curiosidades">Curiosidades</a>
+    </nav>
+    <div class="content">
+        <div class="post">
+            <h2>⚡ Celebridade X fez isso de novo!</h2>
+            <p>Veja o que aconteceu com a famosa... <a href="#">Leia mais</a></p>
+        </div>
+        <div class="post">
+            <h2>🎬 Novo filme que você não pode perder!</h2>
+            <p>Os detalhes sobre o lançamento... <a href="#">Leia mais</a></p>
+        </div>
+    </div>
+</body>
+</html>
